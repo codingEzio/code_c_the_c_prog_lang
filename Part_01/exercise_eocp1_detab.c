@@ -1,10 +1,6 @@
 #include <stdio.h>
 
 #define MAXLINE 1000
-
-/*
-I don't really know why we need to set this to 8.
-*/
 #define TABWIDTH 8
 
 int getln(char line[], int limit);
@@ -22,7 +18,7 @@ int main()
         ab[TAB]cdefgh    ab------cdefgh
         ab[TAB]bcde[TAB] ab----bcde----
     -- Note
-        1. The 1st tab is always like '..[TAB]..' (8-N)
+        The 1st tab is always like '..[TAB]..' (8-N)
     */
 
     char line[MAXLINE];
