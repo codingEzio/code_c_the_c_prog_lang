@@ -16,9 +16,12 @@ void entab(char line[]);
 int main()
 {
     /*
-    I don't really see much difference while testing this program.
+    Quotes
+    - Replace strings of blanks 
+    - by the minimum num of tabs|blanks to achieve the same spacing.
 
-    Further explanation needed!!
+    Further explanation needed.
+    I don't really see much difference while testing this program!
     */
 
     char line[MAXLINE];
